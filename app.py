@@ -117,9 +117,10 @@ def chat():
 
 
 # In[ ]:
+if __name__=="__main":
+  app.run(debug=True)
 
-
-app.run()
+#app.run()
 
 
 # In[ ]:
