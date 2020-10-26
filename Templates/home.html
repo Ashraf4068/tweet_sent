@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>ESPN Prediction</h2>
+
+<form action="" method="post">
+  <label for="test_text">Text to test:</label><br>
+  <input type="text" id="test_text" name="test_text" value=""><br>
+  <input type="submit" value="Submit">
+</form> 
+
+{% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+</body>
+</html>
